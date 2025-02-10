@@ -26,7 +26,7 @@ public final class Zombie extends Monster {
         this.biteDamage = biteDamage;
     }
     @Override
-    public void specialPowers() {
+    public void specialPower() {
         System.out.println(getName() + "bites does" + biteDamage + "damage.");
     }
 }

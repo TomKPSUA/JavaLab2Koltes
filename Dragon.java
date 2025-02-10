@@ -29,7 +29,7 @@ public final class Dragon extends Monster {
         this.fireBlastDamage = fireBlastDamage;
     }
     @Override
-    public void specialPowers() {
+    public void specialPower() {
         System.out.println(getName() + "uses Fire Blast with" + fireBlastDamage + "damage.");
     }
 }

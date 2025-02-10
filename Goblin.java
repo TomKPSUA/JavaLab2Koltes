@@ -26,7 +26,7 @@ public final class Goblin extends Monster {
         this.ambushDamage = ambushDamage;
     }
     @Override
-    public void specialPowers() {
+    public void specialPower() {
         System.out.println(getName() + "Ambushes and does" + ambushDamage + "damage.");
     }
 }

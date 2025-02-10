@@ -49,6 +49,7 @@ public abstract class Monster {
     }
     public int setAttackDamage(int attackDamage) {
         this.attackDamage = attackDamage;
+
     }
     public SpecialPower getSpecialPower() {
         return specialPower;
