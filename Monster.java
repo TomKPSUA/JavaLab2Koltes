@@ -7,5 +7,18 @@
  * Rev: 1
 
  */
+
+//Parent Class for Monsters
 public class Monster {
+    protected String name;
+    protected int health;
+    protected int attackDamage;
+    protected SpecialPower specialPower;
+
+    //Constructor
+    public Monster(String name, int health, int attackDamage) {
+        this.name = name;
+        this.health = health;
+        this.attackDamage = attackDamage;
+    }
 }

@@ -8,5 +8,11 @@
 
  */
 
+/**
+ * Main class for generating Monsters and testing polymorphism
+ */
 public class Main {
+    public static void main(String[] args) {
+
+    }
 }
