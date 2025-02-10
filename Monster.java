@@ -9,7 +9,7 @@
  */
 
 //Parent Class for Monsters
-public class Monster {
+public abstract class Monster {
     protected String name;
     protected int health;
     protected int attackDamage;
@@ -21,4 +21,33 @@ public class Monster {
         this.health = health;
         this.attackDamage = attackDamage;
     }
+
+    //Getters and Setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+    public void setHealth(int health) {
+        this.health = health;
+    }
+    public int getAttackDamage() {
+        return attackDamage
+    }
+    public int setAttackDamage(int attackDamage) {
+        this.attackDamage = attackDamage;
+    }
+    public SpecialPower getSpecialPower() {
+        return specialPower;
+    }
+    public void setSpecialPower(SpecialPower specialPower) {
+        this.specialPower = specialPower;
+    }
+    public abstract void specialPower()
 }
