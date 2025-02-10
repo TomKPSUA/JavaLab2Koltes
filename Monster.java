@@ -16,6 +16,13 @@ public abstract class Monster {
     protected SpecialPower specialPower;
 
     //Constructor
+
+    /**
+     *
+     * @param name is name of Monster
+     * @param health is amount of health the monster has
+     * @param attackDamage is the amount of damage an attack does
+     */
     public Monster(String name, int health, int attackDamage) {
         this.name = name;
         this.health = health;

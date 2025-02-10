@@ -7,5 +7,26 @@
  * Rev: 1
 
  */
+
+/**
+ * Extending Monster class to create Goblin Final Class
+ */
 public final class Goblin extends Monster {
+    private int ambushDamage;
+
+    public Goblin(String name, int health, int attackDamage, int ambushDamage) {
+        super(name, health, attackDamage)
+        this.ambushDamage = ambushDamage;
+    }
+    //getters and setters
+    public int getAmbushDamage() {
+        return ambushDamage;
+    }
+    public void setAmbushDamage(int ambushDamage) {
+        this.ambushDamage = ambushDamage;
+    }
+    @Override
+    public void specialPowers() {
+        System.out.println(getName() + "Ambushes and does" + ambushDamage + "damage.");
+    }
 }

@@ -7,5 +7,26 @@
  * Rev: 1
 
  */
+/**
+ * Extending Monster class to create Zombie Final Class
+ */
 public final class Zombie extends Monster {
+    private int biteDamage;
+
+    public Zombie(String name, int health, int attackDamage, int biteDamage) {
+        super(name, health, biteDamage)
+        this.biteDamage = biteDamage;
+    }
+    //getters and setters
+    public int getBiteDamage() {
+        return biteDamage;
+
+    }
+    public void setBiteDamage(int biteDamage) {
+        this.biteDamage = biteDamage;
+    }
+    @Override
+    public void specialPowers() {
+        System.out.println(getName() + "bites does" + biteDamage + "damage.");
+    }
 }
