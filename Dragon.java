@@ -17,7 +17,7 @@ public final class Dragon extends Monster {
     //constructor
 
     public Dragon(String name, int health, int attackDamage, int fireBlastDamage) {
-        super(name, health, attackDamage)
+        super(name, health, attackDamage);
         this.fireBlastDamage = fireBlastDamage;
     }
 

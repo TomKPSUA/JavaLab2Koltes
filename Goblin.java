@@ -15,7 +15,7 @@ public final class Goblin extends Monster {
     private int ambushDamage;
 
     public Goblin(String name, int health, int attackDamage, int ambushDamage) {
-        super(name, health, attackDamage)
+        super(name, health, attackDamage);
         this.ambushDamage = ambushDamage;
     }
     //getters and setters

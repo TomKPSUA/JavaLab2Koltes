@@ -45,7 +45,7 @@ public abstract class Monster {
         this.health = health;
     }
     public int getAttackDamage() {
-        return attackDamage
+        return attackDamage;
     }
     public int setAttackDamage(int attackDamage) {
         this.attackDamage = attackDamage;
@@ -56,5 +56,5 @@ public abstract class Monster {
     public void setSpecialPower(SpecialPower specialPower) {
         this.specialPower = specialPower;
     }
-    public abstract void specialPower()
+    public abstract void specialPower();
 }

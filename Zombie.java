@@ -14,7 +14,7 @@ public final class Zombie extends Monster {
     private int biteDamage;
 
     public Zombie(String name, int health, int attackDamage, int biteDamage) {
-        super(name, health, biteDamage)
+        super(name, health, biteDamage);
         this.biteDamage = biteDamage;
     }
     //getters and setters
