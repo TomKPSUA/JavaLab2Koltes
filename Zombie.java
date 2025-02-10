@@ -27,6 +27,6 @@ public final class Zombie extends Monster {
     }
     @Override
     public void specialPower() {
-        System.out.println(getName() + "bites does" + biteDamage + "damage.");
+        System.out.println(getName() + " bites does " + biteDamage + " damage. ");
     }
 }

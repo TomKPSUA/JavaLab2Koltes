@@ -30,6 +30,6 @@ public final class Dragon extends Monster {
     }
     @Override
     public void specialPower() {
-        System.out.println(getName() + "uses Fire Blast with" + fireBlastDamage + "damage.");
+        System.out.println(getName() + " uses Fire Blast with " + fireBlastDamage + " damage. ");
     }
 }
