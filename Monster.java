@@ -57,4 +57,9 @@ public abstract class Monster {
         this.specialPower = specialPower;
     }
     public abstract void specialPower();
+
+    @Override
+    public String toString() {
+        return "Monster{name='" + name + "', health=" + health + ", attackPower=" + attackDamage + ", specialPower=" + specialPower + "}";
+    }
 }
